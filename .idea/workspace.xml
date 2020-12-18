@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a83e716-3762-48f6-89ac-9517f5d5b4fb" name="Default Changelist" comment="Initial">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bernini/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bernini/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/series/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/series/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/series/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/series/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/series/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/series/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/series/views.py" beforeDir="false" />
+    <list default="true" id="8a83e716-3762-48f6-89ac-9517f5d5b4fb" name="Default Changelist" comment="Changed model">
+      <change beforePath="$PROJECT_DIR$/Articulo/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Articulo/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +40,26 @@
       <option name="project" value="LOCAL" />
       <updated>1608304601355</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changed model">
+      <created>1608306814593</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608306814593</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changed model">
+      <created>1608306962108</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608306962108</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="Changed model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed model" />
   </component>
 </project>

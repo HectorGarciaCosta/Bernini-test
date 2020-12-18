@@ -7,3 +7,5 @@ class Articulo(models.Model):
     GLN = models.CharField(max_length=80)
     price = models.FloatField()
 
+    def __str__(self):
+        return self.GLN
