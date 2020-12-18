@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a83e716-3762-48f6-89ac-9517f5d5b4fb" name="Default Changelist" comment="Changed model">
-      <change beforePath="$PROJECT_DIR$/Articulo/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Articulo/models.py" afterDir="false" />
+    <list default="true" id="8a83e716-3762-48f6-89ac-9517f5d5b4fb" name="Default Changelist" comment="First model working (Articulo)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Articulo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Articulo/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Articulo/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Articulo/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Articulo/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Articulo/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Articulo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bernini/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bernini/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bernini/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bernini/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,6 +36,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -54,12 +72,20 @@
       <option name="project" value="LOCAL" />
       <updated>1608306962108</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="First model working (Articulo)">
+      <created>1608307391777</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608307391777</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
     <MESSAGE value="Changed model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed model" />
+    <MESSAGE value="First model working (Articulo)" />
+    <option name="LAST_COMMIT_MESSAGE" value="First model working (Articulo)" />
   </component>
 </project>
