@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pedidos</title>
+</head>
+<body>
+<div><b>Lista de pedidos</b></div>
+    {% for pedido in pedidos %}
+    <div><a href="{% url 'pedido_detalle' pedido.pk %}" class="top-menu"><span class="glyphicon glyphicon-plus">{{ pedido }}</span></a></div>
+    {% endfor %}
+    <br>
+    <div><a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus">Nuevo pedido</span></a></div>
+</body>
+</html>

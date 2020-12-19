@@ -15,8 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, re_path
-from django.contrib.auth.views import LoginView
+from login.views import LoginFormView
+from pedido.views import lista_pedidos, pedido_nuevo, articulos_nuevos, pedido_detalle
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('login/', LoginView, name='login'),
+    path('login/', LoginFormView.as_view()),
+    path('accounts/profile/', lista_pedidos),
+    path('post/new', pedido_nuevo, name='post_new'),
+    path('post/<int:pk>/', articulos_nuevos, name='articulos_new'),
+    path('post/<int:pk>/detalle/', pedido_detalle, name='pedido_detalle'),
 ]
