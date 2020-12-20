@@ -124,3 +124,12 @@ STATIC_URL = '/static/'
 LOGIN_URL = 'bernini_login'
 LOGOUT_URL = 'bernini_logout'
 # LOGIN_REDIRECT_URL = reverse_lazy('adopcion:solicitud_listar')
+
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'hecgarco@gmail.com'
+EMAIL_HOST_PASSWORD = '3del81995'
+EMAIL_PORT = 587
+
+

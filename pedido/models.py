@@ -13,6 +13,6 @@ class Articulo(models.Model):
     precio = models.FloatField()
     pedido = models.ForeignKey('pedido', null=True, on_delete=models.CASCADE)
     def __str__(self):
-        return self.GLN
+        return self.GLN, self.precio
 
 

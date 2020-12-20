@@ -16,13 +16,20 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, re_path
 from login.views import LoginFormView
-from pedido.views import lista_pedidos, pedido_nuevo, articulos_nuevos, pedido_detalle
+from pedido.views import lista_pedidos, pedido_nuevo, articulos_nuevos, pedido_detalle, envia_mail
+from rest_framework.routers import DefaultRouter
+from pedido.views import CustomerViewSet, ArticlesViewSet
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('login/', LoginFormView.as_view()),
-    path('accounts/profile/', lista_pedidos),
+    path('accounts/profile/', lista_pedidos, name='lista_pedidos'),
     path('post/new', pedido_nuevo, name='post_new'),
     path('post/<int:pk>/', articulos_nuevos, name='articulos_new'),
     path('post/<int:pk>/detalle/', pedido_detalle, name='pedido_detalle'),
+    path('post/<int:pk>/detalle/envia_mail', envia_mail, name='envia_mail'),
 ]
+router = DefaultRouter()
+router.register('pedidos', CustomerViewSet, 'pedidos')
+router.register('articulos', ArticlesViewSet, 'articulos')
+urlpatterns += router.urls

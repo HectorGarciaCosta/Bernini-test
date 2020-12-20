@@ -5,11 +5,16 @@
     <title>Pedidos</title>
 </head>
 <body>
+    {% csrf_token %}
     <div class="post">
         <h2>{{ pedido.numero }}</h2>
         {% for articulo in articulos %}
-            <div>{{ articulo }}</div>
+            <div>GLN: {{ articulo.GLN }}  -  Precio: {{ articulo.precio }}</div>
         {% endfor %}
     </div>
+    <div>
+        <a href="{% url 'envia_mail' pedido.pk %}" class="top-menu"><span class="glyphicon glyphicon-plus">Enviar pedido por correo</span></a>
+    </div>
+
 </body>
 </html>
