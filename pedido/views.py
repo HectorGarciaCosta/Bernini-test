@@ -61,8 +61,8 @@ def envia_mail(request, pk):
     objeto1 = Pedido.objects.get(pk=pk)
     objeto2 = Articulo.objects.filter(pedido=objeto1)
     response = HttpResponse(content_type='text/csv')
-    response['Content-Disposition'] = 'attachment; filename="pedido.csv"'
-    with open('pedido.csv', 'w',newline='') as f:
+    response['Content-Disposition'] = 'attachment; filename="pedido_'+objeto1.numero+'.csv"'
+    with open("pedido_"+objeto1.numero+".csv", 'w',newline='') as f:
         writer = csv.writer(f)
         columnas = []
         writer.writerows([['Usuario','GLN','Precio']])
@@ -80,8 +80,8 @@ def envia_mail(request, pk):
             reply_to=[''],
             headers={'Message-ID': 'foo'},
         )
-        email.attach_file('pedido.csv')
+        email.attach_file("pedido_"+objeto1.numero+".csv")
         email.send(fail_silently=False)
 
-        #os.remove('pedido.csv')
+        os.remove("pedido_"+objeto1.numero+".csv")
     return render(request, "pedido_detail.html", {'pedido': objeto1, 'articulos': objeto2})

@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a83e716-3762-48f6-89ac-9517f5d5b4fb" name="Default Changelist" comment="New views and models created. Not working yet">
-      <change afterPath="$PROJECT_DIR$/pedido/serializers.py" afterDir="false" />
+    <list default="true" id="8a83e716-3762-48f6-89ac-9517f5d5b4fb" name="Default Changelist" comment="full working.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bernini/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bernini/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bernini/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bernini/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pedido/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pedido/templates/pedido_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/templates/pedido_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedido/templates/post_articulo.html" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/templates/post_articulo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pedido/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608399682570</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="full working.">
+      <created>1608481474730</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608481474730</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -106,6 +110,7 @@
     <MESSAGE value="First model working (Articulo)" />
     <MESSAGE value="Created model login and template" />
     <MESSAGE value="New views and models created. Not working yet" />
-    <option name="LAST_COMMIT_MESSAGE" value="New views and models created. Not working yet" />
+    <MESSAGE value="full working." />
+    <option name="LAST_COMMIT_MESSAGE" value="full working." />
   </component>
 </project>
